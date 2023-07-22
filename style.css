@@ -11,7 +11,6 @@ header {
     align-items: center;
     height: 10vh;
     box-shadow: 1px 1px 3px #24242426;
-
 }
 
 header div {
@@ -27,6 +26,8 @@ header div img {
 
 header h2 {
     margin-left: 10px;
+    font-weight: 700;
+    
 }
 header ul {
     display: flex;
@@ -36,3 +37,98 @@ header ul {
     font-size: 17px;
 }
 
+header li {
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section {
+    display: flex;
+    height: 45vh;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.Botao_Nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15vh;
+
+}
+
+main button {
+    width: 13vw;
+    height: 6.5vh;
+    background-color:#FCA60F;
+    border: white 1px solid;
+    color: white;
+    border-radius: 5px;
+}
+
+main nav {
+    display: flex;
+    width: 8vw;
+    justify-content: space-around;
+}
+
+main nav img {
+    width: 1.5rem;
+}
+
+main figure img {
+    width: 10.5vw;
+}
+
+@media (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header ul {
+        width: 60vw;
+    }
+
+    header div img {
+        width: 8vw;
+    }
+    }
+    main section {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+    main figure {
+        display: none;
+    }
+    .Botao_Nav { 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 45vh;
+    }
+    .Botao_Nav nav {
+        width: 28vw;
+        font-size: 3rem;
+    }
+    .Botao_Nav button {
+        width: 60vw;
+    }
+    .Texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        font-size: medium;
+
+    }
+}
